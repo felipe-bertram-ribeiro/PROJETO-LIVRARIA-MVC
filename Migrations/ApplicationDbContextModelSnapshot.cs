@@ -22,6 +22,36 @@ namespace LivrariaTeste.Migrations
 
             SqlServerModelBuilderExtensions.UseIdentityColumns(modelBuilder);
 
+            modelBuilder.Entity("Livraria.Models.Cliente", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<string>("CPF")
+                        .IsRequired()
+                        .HasMaxLength(14)
+                        .HasColumnType("nvarchar(14)");
+
+                    b.Property<string>("Email")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Nome")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("NumeroContato")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("Clientes");
+                });
+
             modelBuilder.Entity("Livraria.Models.Emprestimo", b =>
                 {
                     b.Property<int>("Id")
@@ -29,6 +59,9 @@ namespace LivrariaTeste.Migrations
                         .HasColumnType("int");
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<int>("ClienteId")
+                        .HasColumnType("int");
 
                     b.Property<DateTime?>("DataDevolucao")
                         .HasColumnType("datetime2");
@@ -46,10 +79,11 @@ namespace LivrariaTeste.Migrations
                         .HasColumnType("int");
 
                     b.Property<string>("Status")
-                        .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
                     b.HasKey("Id");
+
+                    b.HasIndex("ClienteId");
 
                     b.HasIndex("FuncionarioId");
 
@@ -131,6 +165,12 @@ namespace LivrariaTeste.Migrations
 
             modelBuilder.Entity("Livraria.Models.Emprestimo", b =>
                 {
+                    b.HasOne("Livraria.Models.Cliente", "Cliente")
+                        .WithMany()
+                        .HasForeignKey("ClienteId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
                     b.HasOne("Livraria.Models.Funcionario", "Funcionario")
                         .WithMany()
                         .HasForeignKey("FuncionarioId")
@@ -142,6 +182,8 @@ namespace LivrariaTeste.Migrations
                         .HasForeignKey("LivroId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
+
+                    b.Navigation("Cliente");
 
                     b.Navigation("Funcionario");
 

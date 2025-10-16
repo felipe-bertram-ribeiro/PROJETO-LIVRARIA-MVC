@@ -1,59 +1,83 @@
 ﻿@model Livraria.Models.Emprestimo
-@using Microsoft.AspNetCore.Mvc.Rendering
 
 @{
     ViewData["Title"] = "Editar Empréstimo";
 }
 
-<div class="card shadow-sm mb-4">
-    <div class="card-header bg-warning text-white">
-        <h4 class="mb-0">@ViewData["Title"]</h4>
-    </div>
+<h1 class="mb-4">Editar Empréstimo</h1>
+<hr />
 
-    <div class="card-body">
+<div class="row">
+    <div class="col-md-6">
         <form asp-action="Edit" method="post">
+            @Html.AntiForgeryToken()
             <input type="hidden" asp-for="Id" />
 
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+
+            <!-- Livro -->
             <div class="mb-3">
-                <label asp-for="LivroId" class="form-label"></label>
-                <select asp-for="LivroId" class="form-control" asp-items="@(ViewData["LivroId"] as SelectList)"></select>
+                <label asp-for="LivroId" class="form-label">Livro</label>
+                <select asp-for="LivroId" class="form-select" asp-items="@(ViewData["LivroId"] as SelectList)">
+                    <option value="">-- Selecione um Livro --</option>
+                </select>
+                <span asp-validation-for="LivroId" class="text-danger"></span>
             </div>
 
+            <!-- Funcionário -->
             <div class="mb-3">
-                <label asp-for="FuncionarioId" class="form-label"></label>
-                <select asp-for="FuncionarioId" class="form-control" asp-items="@(ViewData["FuncionarioId"] as SelectList)"></select>
+                <label asp-for="FuncionarioId" class="form-label">Funcionário</label>
+                <select asp-for="FuncionarioId" class="form-select" asp-items="@(ViewData["FuncionarioId"] as SelectList)">
+                    <option value="">-- Selecione um Funcionário --</option>
+                </select>
+                <span asp-validation-for="FuncionarioId" class="text-danger"></span>
             </div>
 
+            <!-- Cliente -->
             <div class="mb-3">
-                <label asp-for="DataEmprestimo" class="form-label"></label>
+                <label asp-for="ClienteId" class="form-label">Cliente</label>
+                <select asp-for="ClienteId" class="form-select" asp-items="@(ViewData["ClienteId"] as SelectList)">
+                    <option value="">-- Selecione um Cliente --</option>
+                </select>
+                <span asp-validation-for="ClienteId" class="text-danger"></span>
+            </div>
+
+            <!-- Data do Empréstimo -->
+            <div class="mb-3">
+                <label asp-for="DataEmprestimo" class="form-label">Data do Empréstimo</label>
                 <input asp-for="DataEmprestimo" class="form-control" type="date" />
                 <span asp-validation-for="DataEmprestimo" class="text-danger"></span>
             </div>
 
+            <!-- Data Prevista de Devolução -->
             <div class="mb-3">
-                <label asp-for="DataPrevistaDevolucao" class="form-label"></label>
+                <label asp-for="DataPrevistaDevolucao" class="form-label">Data Prevista de Devolução</label>
                 <input asp-for="DataPrevistaDevolucao" class="form-control" type="date" />
                 <span asp-validation-for="DataPrevistaDevolucao" class="text-danger"></span>
             </div>
 
+            <!-- Data de Devolução -->
             <div class="mb-3">
-                <label asp-for="DataDevolucao" class="form-label"></label>
+                <label asp-for="DataDevolucao" class="form-label">Data de Devolução</label>
                 <input asp-for="DataDevolucao" class="form-control" type="date" />
                 <span asp-validation-for="DataDevolucao" class="text-danger"></span>
             </div>
 
+            <!-- Status -->
             <div class="mb-3">
-                <label asp-for="Status" class="form-label"></label>
+                <label asp-for="Status" class="form-label">Status</label>
                 <input asp-for="Status" class="form-control" />
                 <span asp-validation-for="Status" class="text-danger"></span>
             </div>
 
-            <button type="submit" class="btn btn-success">Salvar</button>
+            <button type="submit" class="btn btn-primary">Salvar</button>
             <a asp-action="Index" class="btn btn-secondary">Voltar</a>
         </form>
     </div>
 </div>
 
 @section Scripts {
-    <partial name="_ValidationScriptsPartial" />
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
 }

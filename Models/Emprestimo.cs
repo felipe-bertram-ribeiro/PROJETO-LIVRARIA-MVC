@@ -8,32 +8,31 @@ namespace Livraria.Models
         public int Id { get; set; }
 
         [Required]
-        [Display(Name = "Livro")]
+        [Range(1, int.MaxValue, ErrorMessage = "Selecione um livro")]
         public int LivroId { get; set; }
         public Livro? Livro { get; set; }
 
         [Required]
-        [Display(Name = "Funcionário")]
+        [Range(1, int.MaxValue, ErrorMessage = "Selecione um funcionário")]
         public int FuncionarioId { get; set; }
         public Funcionario? Funcionario { get; set; }
 
         [Required]
-        [DataType(DataType.Date)]
-        [Display(Name = "Data de Empréstimo")]
-        public DateTime DataEmprestimo { get; set; }
+        [Range(1, int.MaxValue, ErrorMessage = "Selecione um cliente")]
+        public int ClienteId { get; set; }
+        public Cliente? Cliente { get; set; }
 
-        // Mantemos esta como required no model (se o banco não permite nulls),
-        // mas o controller garante um valor antes de salvar.
         [Required]
         [DataType(DataType.Date)]
-        [Display(Name = "Data Prevista de Devolução")]
+        public DateTime DataEmprestimo { get; set; }
+
+        [Required]
+        [DataType(DataType.Date)]
         public DateTime DataPrevistaDevolucao { get; set; }
 
         [DataType(DataType.Date)]
-        [Display(Name = "Data de Devolução")]
         public DateTime? DataDevolucao { get; set; }
 
-        [Display(Name = "Status")]
         public string? Status { get; set; }
     }
 }

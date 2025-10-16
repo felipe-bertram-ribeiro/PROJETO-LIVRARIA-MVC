@@ -4,29 +4,43 @@
     ViewData["Title"] = "Detalhes do Empréstimo";
 }
 
-<div class="card shadow-sm mb-4">
-    <div class="card-header bg-secondary text-white">
-        <h4 class="mb-0">@ViewData["Title"]</h4>
-    </div>
+<h1>Detalhes do Empréstimo</h1>
+
+<div class="card">
     <div class="card-body">
-        <dl class="row">
-            <dt class="col-sm-3">Livro</dt>
-            <dd class="col-sm-9">@Model.Livro?.Titulo</dd>
+        <h5 class="card-title">Livro</h5>
+        <p class="card-text">
+            <strong>Título:</strong> @Model.Livro?.Titulo <br />
+            <strong>Autor:</strong> @Model.Livro?.Autor <br />
+            <strong>ISBN:</strong> @Model.Livro?.ISBN
+        </p>
 
-            <dt class="col-sm-3">Funcionário</dt>
-            <dd class="col-sm-9">@Model.Funcionario?.Nome</dd>
+        <h5 class="card-title">Funcionário</h5>
+        <p class="card-text">
+            <strong>Nome:</strong> @Model.Funcionario?.Nome <br />
+            
+        </p>
 
-            <dt class="col-sm-3">Data do Empréstimo</dt>
-            <dd class="col-sm-9">@Model.DataEmprestimo.ToString("dd/MM/yyyy")</dd>
+        <h5 class="card-title">Cliente</h5>
+        <p class="card-text">
+            <strong>Nome:</strong> @Model.Cliente?.Nome <br />
+            <strong>CPF:</strong> @Model.Cliente?.CPF <br />
+            <strong>Contato:</strong> @Model.Cliente?.NumeroContato <br />
+            <strong>Email:</strong> @Model.Cliente?.Email
+        </p>
 
-            <dt class="col-sm-3">Data de Devolução</dt>
-            <dd class="col-sm-9">@Model.DataDevolucao?.ToString("dd/MM/yyyy")</dd>
+        <h5 class="card-title">Datas</h5>
+        <p class="card-text">
+            <strong>Data de Empréstimo:</strong> @Model.DataEmprestimo.ToShortDateString() <br />
+            <strong>Data Prevista de Devolução:</strong> @Model.DataPrevistaDevolucao.ToShortDateString() <br />
+            <strong>Data de Devolução:</strong> @(Model.DataDevolucao.HasValue? Model.DataDevolucao.Value.ToShortDateString() : "Ainda não devolvido")
+        </p>
 
-            <dt class="col-sm-3">Status</dt>
-            <dd class="col-sm-9">@Model.Status</dd>
-        </dl>
-    </div>
-    <div class="card-footer d-flex justify-content-between">
+        <h5 class="card-title">Status</h5>
+        <p class="card-text">
+            @Model.Status
+        </p>
+
         <a asp-action="Edit" asp-route-id="@Model.Id" class="btn btn-primary">Editar</a>
         <a asp-action="Index" class="btn btn-secondary">Voltar</a>
     </div>
