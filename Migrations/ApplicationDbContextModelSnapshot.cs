@@ -30,13 +30,13 @@ namespace LivrariaTeste.Migrations
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
 
-                    b.Property<DateTime>("DataDevolucaoPrevista")
-                        .HasColumnType("datetime2");
-
-                    b.Property<DateTime?>("DataDevolucaoReal")
+                    b.Property<DateTime?>("DataDevolucao")
                         .HasColumnType("datetime2");
 
                     b.Property<DateTime>("DataEmprestimo")
+                        .HasColumnType("datetime2");
+
+                    b.Property<DateTime>("DataPrevistaDevolucao")
                         .HasColumnType("datetime2");
 
                     b.Property<int>("FuncionarioId")
@@ -45,13 +45,17 @@ namespace LivrariaTeste.Migrations
                     b.Property<int>("LivroId")
                         .HasColumnType("int");
 
+                    b.Property<string>("Status")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
                     b.HasKey("Id");
 
                     b.HasIndex("FuncionarioId");
 
                     b.HasIndex("LivroId");
 
-                    b.ToTable("Emprestimos");
+                    b.ToTable("Emprestimo");
                 });
 
             modelBuilder.Entity("Livraria.Models.Funcionario", b =>
@@ -64,7 +68,8 @@ namespace LivrariaTeste.Migrations
 
                     b.Property<string>("Cargo")
                         .IsRequired()
-                        .HasColumnType("nvarchar(max)");
+                        .HasMaxLength(50)
+                        .HasColumnType("nvarchar(50)");
 
                     b.Property<string>("Email")
                         .IsRequired()
@@ -77,7 +82,8 @@ namespace LivrariaTeste.Migrations
 
                     b.Property<string>("SenhaHash")
                         .IsRequired()
-                        .HasColumnType("nvarchar(max)");
+                        .HasMaxLength(255)
+                        .HasColumnType("nvarchar(255)");
 
                     b.HasKey("Id");
 

@@ -1,18 +1,90 @@
-# Ignore pasta .vs, arquivos de configuração temporários do Visual Studio
-.vs/
+## Visual Studio / .NET / ASP.NET Core .gitignore
 
-# Ignorar arquivos de usuário
-*.user
+# Build results
+[Bb]in/
+[Oo]bj/
+[Ll]og/
+[Ll]ogs/
+TestResults/
+*.VisualState.xml
 *.userosscache
 *.suo
+*.user
 *.userprefs
+*.csproj.user
+*.csproj.FileListAbsolute.txt
 
-# Ignorar bin e obj (diretórios de compilação)
-bin/
-obj/
+# Tooling
+.vs/
+.vscode/
+.idea/
+*.swp
+*.lock.json
 
-# Ignorar arquivos de logs
+# NuGet
+*.nupkg
+*.snupkg
+*.nuspec
+packages/
+.nuget/
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+# Entity Framework migrations backup files
+*.designer.cs
+*.dbmdl
+*.jfm
+*.bak
+
+# Publish
+**/publish/
+**/PublishProfiles/
+**/App_Data/
+
+# Configuration / Secrets
+appsettings.Development.json
+appsettings.Local.json
+secrets.json
+*.pfx
+*.p12
+*.key
+*.pem
+
+# OS generated files
+.DS_Store
+Thumbs.db
+ehthumbs.db
+desktop.ini
+
+# JetBrains Rider
+.idea/
+*.sln.iml
+
+# Others
+_ReSharper*/
+*_ReSharper.Caches/
+*.DotSettings.user
+*.ncrunchsolution
+*.ncrunchproject
+*.coverage
+*.coveragexml
+*.orig
+
+# Logs
 *.log
 
-# Ignorar arquivos de backup
-*~
+# Temporary files
+~$*
+*.tmp
+*.temp
+*.bak
+*.old
+
+# Docker
+*.pid
+.env
+
+# Node (caso use frontend com npm/yarn)
+node_modules/
+dist/

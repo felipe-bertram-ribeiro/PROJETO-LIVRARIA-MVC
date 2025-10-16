@@ -279,10 +279,10 @@ C:\Projetos\LivrariaTeste\obj\Debug\net8.0\staticwebassets.build.json
 C:\Projetos\LivrariaTeste\obj\Debug\net8.0\staticwebassets.build.json.cache
 C:\Projetos\LivrariaTeste\obj\Debug\net8.0\staticwebassets.development.json
 C:\Projetos\LivrariaTeste\obj\Debug\net8.0\staticwebassets.build.endpoints.json
-C:\Projetos\LivrariaTeste\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
 C:\Projetos\LivrariaTeste\obj\Debug\net8.0\Livraria.4629FEC5.Up2Date
 C:\Projetos\LivrariaTeste\obj\Debug\net8.0\LivrariaTeste.dll
 C:\Projetos\LivrariaTeste\obj\Debug\net8.0\refint\LivrariaTeste.dll
 C:\Projetos\LivrariaTeste\obj\Debug\net8.0\LivrariaTeste.pdb
 C:\Projetos\LivrariaTeste\obj\Debug\net8.0\LivrariaTeste.genruntimeconfig.cache
 C:\Projetos\LivrariaTeste\obj\Debug\net8.0\ref\LivrariaTeste.dll
+C:\Projetos\LivrariaTeste\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
