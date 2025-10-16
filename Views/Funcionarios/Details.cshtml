@@ -1,0 +1,24 @@
+﻿@model Livraria.Models.Funcionario
+@{
+    ViewData["Title"] = "Detalhes do Funcionário";
+}
+
+<div class="card shadow-sm mb-4">
+    <div class="card-header bg-info text-white">
+        <h4 class="mb-0">@ViewData["Title"]</h4>
+    </div>
+    <div class="card-body">
+        <dl class="row">
+            <dt class="col-sm-3">Nome</dt>
+            <dd class="col-sm-9">@Model.Nome</dd>
+
+            <dt class="col-sm-3">Email</dt>
+            <dd class="col-sm-9">@Model.Email</dd>
+
+            <dt class="col-sm-3">Cargo</dt>
+            <dd class="col-sm-9">@Model.Cargo</dd>
+        </dl>
+        <a asp-action="Index" class="btn btn-secondary">🔙 Voltar</a>
+        <a asp-action="Edit" asp-route-id="@Model.Id" class="btn btn-warning">✏️ Editar</a>
+    </div>
+</div>

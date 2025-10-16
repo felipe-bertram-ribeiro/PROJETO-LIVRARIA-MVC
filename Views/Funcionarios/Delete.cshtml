@@ -1,0 +1,30 @@
+﻿@model Livraria.Models.Funcionario
+@{
+    ViewData["Title"] = "Excluir Funcionário";
+}
+
+<div class="card shadow-sm mb-4">
+    <div class="card-header bg-danger text-white">
+        <h4 class="mb-0">@ViewData["Title"]</h4>
+    </div>
+    <div class="card-body">
+        <p>Tem certeza que deseja excluir este funcionário?</p>
+
+        <dl class="row">
+            <dt class="col-sm-3">Nome</dt>
+            <dd class="col-sm-9">@Model.Nome</dd>
+
+            <dt class="col-sm-3">Email</dt>
+            <dd class="col-sm-9">@Model.Email</dd>
+
+            <dt class="col-sm-3">Cargo</dt>
+            <dd class="col-sm-9">@Model.Cargo</dd>
+        </dl>
+
+        <form asp-action="Delete">
+            <input type="hidden" asp-for="Id" />
+            <button type="submit" class="btn btn-danger me-2">🗑️ Excluir</button>
+            <a asp-action="Index" class="btn btn-secondary">🔙 Cancelar</a>
+        </form>
+    </div>
+</div>
