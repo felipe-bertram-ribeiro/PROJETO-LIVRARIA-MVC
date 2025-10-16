@@ -37,6 +37,6 @@ app.UseAuthorization();    // Habilita controle de acesso (autenticação/roles, f
 // ==============================================
 app.MapControllerRoute(
     name: "default",
-    pattern: "{controller=Home}/{action=Index}/{id?}");
+    pattern: "{controller=Dashboard}/{action=Index}/{id?}");
 
 app.Run();
