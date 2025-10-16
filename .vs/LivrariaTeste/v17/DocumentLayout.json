@@ -3,10 +3,6 @@
   "WorkspaceRootPath": "C:\\Projetos\\LivrariaTeste\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{E92ABE08-B386-4D46-BE3D-593B7068D9D6}|LivrariaTeste.csproj|c:\\projetos\\livrariateste\\views\\emprestimos\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{E92ABE08-B386-4D46-BE3D-593B7068D9D6}|LivrariaTeste.csproj|solutionrelative:views\\emprestimos\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{E92ABE08-B386-4D46-BE3D-593B7068D9D6}|LivrariaTeste.csproj|c:\\projetos\\livrariateste\\views\\emprestimos\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{E92ABE08-B386-4D46-BE3D-593B7068D9D6}|LivrariaTeste.csproj|solutionrelative:views\\emprestimos\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
@@ -19,16 +15,20 @@
       "RelativeMoniker": "D:0:0:{E92ABE08-B386-4D46-BE3D-593B7068D9D6}|LivrariaTeste.csproj|solutionrelative:controllers\\emprestimoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{E92ABE08-B386-4D46-BE3D-593B7068D9D6}|LivrariaTeste.csproj|c:\\projetos\\livrariateste\\models\\emprestimo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E92ABE08-B386-4D46-BE3D-593B7068D9D6}|LivrariaTeste.csproj|solutionrelative:models\\emprestimo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E92ABE08-B386-4D46-BE3D-593B7068D9D6}|LivrariaTeste.csproj|c:\\projetos\\livrariateste\\views\\emprestimos\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E92ABE08-B386-4D46-BE3D-593B7068D9D6}|LivrariaTeste.csproj|solutionrelative:views\\emprestimos\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{E92ABE08-B386-4D46-BE3D-593B7068D9D6}|LivrariaTeste.csproj|c:\\projetos\\livrariateste\\views\\emprestimos\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{E92ABE08-B386-4D46-BE3D-593B7068D9D6}|LivrariaTeste.csproj|solutionrelative:views\\emprestimos\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{E92ABE08-B386-4D46-BE3D-593B7068D9D6}|LivrariaTeste.csproj|c:\\projetos\\livrariateste\\views\\emprestimos\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{E92ABE08-B386-4D46-BE3D-593B7068D9D6}|LivrariaTeste.csproj|solutionrelative:views\\emprestimos\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E92ABE08-B386-4D46-BE3D-593B7068D9D6}|LivrariaTeste.csproj|c:\\projetos\\livrariateste\\models\\emprestimo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E92ABE08-B386-4D46-BE3D-593B7068D9D6}|LivrariaTeste.csproj|solutionrelative:models\\emprestimo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{E92ABE08-B386-4D46-BE3D-593B7068D9D6}|LivrariaTeste.csproj|c:\\projetos\\livrariateste\\data\\applicationdbcontext.cs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -114,37 +114,24 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Details.cshtml",
-              "DocumentMoniker": "C:\\Projetos\\LivrariaTeste\\Views\\Emprestimos\\Details.cshtml",
-              "RelativeDocumentMoniker": "Views\\Emprestimos\\Details.cshtml",
-              "ToolTip": "C:\\Projetos\\LivrariaTeste\\Views\\Emprestimos\\Details.cshtml",
-              "RelativeToolTip": "Views\\Emprestimos\\Details.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAABSAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-10-16T04:11:51.139Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "Edit.cshtml",
               "DocumentMoniker": "C:\\Projetos\\LivrariaTeste\\Views\\Emprestimos\\Edit.cshtml",
               "RelativeDocumentMoniker": "Views\\Emprestimos\\Edit.cshtml",
               "ToolTip": "C:\\Projetos\\LivrariaTeste\\Views\\Emprestimos\\Edit.cshtml",
               "RelativeToolTip": "Views\\Emprestimos\\Edit.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAABVAAAAAAAAAA==",
+              "ViewState": "AgIAABMAAAAAAAAAAAAwwDIAAABJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-10-16T04:11:41.162Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "Delete.cshtml",
               "DocumentMoniker": "C:\\Projetos\\LivrariaTeste\\Views\\Emprestimos\\Delete.cshtml",
               "RelativeDocumentMoniker": "Views\\Emprestimos\\Delete.cshtml",
@@ -152,12 +139,11 @@
               "RelativeToolTip": "Views\\Emprestimos\\Delete.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAsAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-10-16T04:11:26.627Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-16T04:11:26.627Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 4,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Projetos\\LivrariaTeste\\Views\\Emprestimos\\Index.cshtml",
               "RelativeDocumentMoniker": "Views\\Emprestimos\\Index.cshtml",
@@ -170,26 +156,26 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "Create.cshtml",
               "DocumentMoniker": "C:\\Projetos\\LivrariaTeste\\Views\\Emprestimos\\Create.cshtml",
               "RelativeDocumentMoniker": "Views\\Emprestimos\\Create.cshtml",
               "ToolTip": "C:\\Projetos\\LivrariaTeste\\Views\\Emprestimos\\Create.cshtml",
               "RelativeToolTip": "Views\\Emprestimos\\Create.cshtml",
-              "ViewState": "AgIAABEAAAAAAAAAAAAgwCYAAAASAAAAAAAAAA==",
+              "ViewState": "AgIAABEAAAAAAAAAAAAwwCkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-10-16T04:09:45.303Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 2,
               "Title": "EmprestimosController.cs",
               "DocumentMoniker": "C:\\Projetos\\LivrariaTeste\\Controllers\\EmprestimosController.cs",
               "RelativeDocumentMoniker": "Controllers\\EmprestimosController.cs",
               "ToolTip": "C:\\Projetos\\LivrariaTeste\\Controllers\\EmprestimosController.cs",
               "RelativeToolTip": "Controllers\\EmprestimosController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAA5AAAAAAAAAA==",
+              "ViewState": "AgIAAKMAAAAAAAAAAADwv7kAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-10-16T03:59:53.993Z",
               "EditorCaption": ""
@@ -268,6 +254,31 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Emprestimo.cs",
+              "DocumentMoniker": "C:\\Projetos\\LivrariaTeste\\Models\\Emprestimo.cs",
+              "RelativeDocumentMoniker": "Models\\Emprestimo.cs",
+              "ToolTip": "C:\\Projetos\\LivrariaTeste\\Models\\Emprestimo.cs",
+              "RelativeToolTip": "Models\\Emprestimo.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAiwB8AAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-15T19:22:09.71Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Projetos\\LivrariaTeste\\Views\\Emprestimos\\Details.cshtml",
+              "RelativeDocumentMoniker": "Views\\Emprestimos\\Details.cshtml",
+              "ToolTip": "C:\\Projetos\\LivrariaTeste\\Views\\Emprestimos\\Details.cshtml",
+              "RelativeToolTip": "Views\\Emprestimos\\Details.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAABSAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-16T04:11:51.139Z"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 19,
               "Title": "_Layout.cshtml",
               "DocumentMoniker": "C:\\Projetos\\LivrariaTeste\\Views\\Shared\\_Layout.cshtml",
@@ -304,19 +315,6 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Emprestimo.cs",
-              "DocumentMoniker": "C:\\Projetos\\LivrariaTeste\\Models\\Emprestimo.cs",
-              "RelativeDocumentMoniker": "Models\\Emprestimo.cs",
-              "ToolTip": "C:\\Projetos\\LivrariaTeste\\Models\\Emprestimo.cs",
-              "RelativeToolTip": "Models\\Emprestimo.cs",
-              "ViewState": "AgIAAA4AAAAAAAAAAAA9wBgAAAAhAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-15T19:22:09.71Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 7,
               "Title": "ApplicationDbContext.cs.cs",
               "DocumentMoniker": "C:\\Projetos\\LivrariaTeste\\Data\\ApplicationDbContext.cs.cs",
@@ -325,8 +323,7 @@
               "RelativeToolTip": "Data\\ApplicationDbContext.cs.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-15T19:20:39.592Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-15T19:20:39.592Z"
             },
             {
               "$type": "Document",

@@ -1,5 +1,5 @@
-﻿using System.ComponentModel.DataAnnotations;
-using System.ComponentModel.DataAnnotations.Schema;
+﻿using System;
+using System.ComponentModel.DataAnnotations;
 
 namespace Livraria.Models
 {
@@ -10,28 +10,30 @@ namespace Livraria.Models
         [Required]
         [Display(Name = "Livro")]
         public int LivroId { get; set; }
-
-        [ForeignKey("LivroId")]
         public Livro? Livro { get; set; }
 
         [Required]
         [Display(Name = "Funcionário")]
         public int FuncionarioId { get; set; }
-
-        [ForeignKey("FuncionarioId")]
         public Funcionario? Funcionario { get; set; }
 
         [Required]
         [DataType(DataType.Date)]
-        [Display(Name = "Data do Empréstimo")]
-        public DateTime DataEmprestimo { get; set; } = DateTime.Now;
+        [Display(Name = "Data de Empréstimo")]
+        public DateTime DataEmprestimo { get; set; }
+
+        // Mantemos esta como required no model (se o banco não permite nulls),
+        // mas o controller garante um valor antes de salvar.
+        [Required]
+        [DataType(DataType.Date)]
+        [Display(Name = "Data Prevista de Devolução")]
+        public DateTime DataPrevistaDevolucao { get; set; }
 
         [DataType(DataType.Date)]
         [Display(Name = "Data de Devolução")]
         public DateTime? DataDevolucao { get; set; }
 
-        [Required]
         [Display(Name = "Status")]
-        public string Status { get; set; } = "Não devolvido";
+        public string? Status { get; set; }
     }
 }
