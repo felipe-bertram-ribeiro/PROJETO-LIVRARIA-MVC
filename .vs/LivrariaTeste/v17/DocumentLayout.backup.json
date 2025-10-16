@@ -3,6 +3,22 @@
   "WorkspaceRootPath": "C:\\Projetos\\LivrariaTeste\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{E92ABE08-B386-4D46-BE3D-593B7068D9D6}|LivrariaTeste.csproj|c:\\projetos\\livrariateste\\views\\funcionarios\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E92ABE08-B386-4D46-BE3D-593B7068D9D6}|LivrariaTeste.csproj|solutionrelative:views\\funcionarios\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E92ABE08-B386-4D46-BE3D-593B7068D9D6}|LivrariaTeste.csproj|c:\\projetos\\livrariateste\\controllers\\funcionarioscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E92ABE08-B386-4D46-BE3D-593B7068D9D6}|LivrariaTeste.csproj|solutionrelative:controllers\\funcionarioscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E92ABE08-B386-4D46-BE3D-593B7068D9D6}|LivrariaTeste.csproj|c:\\projetos\\livrariateste\\views\\livros\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E92ABE08-B386-4D46-BE3D-593B7068D9D6}|LivrariaTeste.csproj|solutionrelative:views\\livros\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E92ABE08-B386-4D46-BE3D-593B7068D9D6}|LivrariaTeste.csproj|c:\\projetos\\livrariateste\\views\\funcionarios\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E92ABE08-B386-4D46-BE3D-593B7068D9D6}|LivrariaTeste.csproj|solutionrelative:views\\funcionarios\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{E92ABE08-B386-4D46-BE3D-593B7068D9D6}|LivrariaTeste.csproj|c:\\projetos\\livrariateste\\views\\funcionarios\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{E92ABE08-B386-4D46-BE3D-593B7068D9D6}|LivrariaTeste.csproj|solutionrelative:views\\funcionarios\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
@@ -11,28 +27,32 @@
       "RelativeMoniker": "D:0:0:{E92ABE08-B386-4D46-BE3D-593B7068D9D6}|LivrariaTeste.csproj|solutionrelative:views\\funcionarios\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E92ABE08-B386-4D46-BE3D-593B7068D9D6}|LivrariaTeste.csproj|c:\\projetos\\livrariateste\\controllers\\funcionarioscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E92ABE08-B386-4D46-BE3D-593B7068D9D6}|LivrariaTeste.csproj|solutionrelative:controllers\\funcionarioscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E92ABE08-B386-4D46-BE3D-593B7068D9D6}|LivrariaTeste.csproj|c:\\projetos\\livrariateste\\views\\funcionarios\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E92ABE08-B386-4D46-BE3D-593B7068D9D6}|LivrariaTeste.csproj|solutionrelative:views\\funcionarios\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E92ABE08-B386-4D46-BE3D-593B7068D9D6}|LivrariaTeste.csproj|c:\\projetos\\livrariateste\\views\\livros\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E92ABE08-B386-4D46-BE3D-593B7068D9D6}|LivrariaTeste.csproj|solutionrelative:views\\livros\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E92ABE08-B386-4D46-BE3D-593B7068D9D6}|LivrariaTeste.csproj|c:\\projetos\\livrariateste\\views\\livros\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E92ABE08-B386-4D46-BE3D-593B7068D9D6}|LivrariaTeste.csproj|solutionrelative:views\\livros\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E92ABE08-B386-4D46-BE3D-593B7068D9D6}|LivrariaTeste.csproj|c:\\projetos\\livrariateste\\views\\livros\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E92ABE08-B386-4D46-BE3D-593B7068D9D6}|LivrariaTeste.csproj|solutionrelative:views\\livros\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E92ABE08-B386-4D46-BE3D-593B7068D9D6}|LivrariaTeste.csproj|c:\\projetos\\livrariateste\\views\\livros\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E92ABE08-B386-4D46-BE3D-593B7068D9D6}|LivrariaTeste.csproj|solutionrelative:views\\livros\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{E92ABE08-B386-4D46-BE3D-593B7068D9D6}|LivrariaTeste.csproj|c:\\projetos\\livrariateste\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{E92ABE08-B386-4D46-BE3D-593B7068D9D6}|LivrariaTeste.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E92ABE08-B386-4D46-BE3D-593B7068D9D6}|LivrariaTeste.csproj|c:\\projetos\\livrariateste\\views\\funcionarios\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{E92ABE08-B386-4D46-BE3D-593B7068D9D6}|LivrariaTeste.csproj|solutionrelative:views\\funcionarios\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E92ABE08-B386-4D46-BE3D-593B7068D9D6}|LivrariaTeste.csproj|c:\\projetos\\livrariateste\\views\\funcionarios\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{E92ABE08-B386-4D46-BE3D-593B7068D9D6}|LivrariaTeste.csproj|solutionrelative:views\\funcionarios\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{E92ABE08-B386-4D46-BE3D-593B7068D9D6}|LivrariaTeste.csproj|c:\\projetos\\livrariateste\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E92ABE08-B386-4D46-BE3D-593B7068D9D6}|LivrariaTeste.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E92ABE08-B386-4D46-BE3D-593B7068D9D6}|LivrariaTeste.csproj|c:\\projetos\\livrariateste\\views\\funcionarios\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{E92ABE08-B386-4D46-BE3D-593B7068D9D6}|LivrariaTeste.csproj|solutionrelative:views\\funcionarios\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{E92ABE08-B386-4D46-BE3D-593B7068D9D6}|LivrariaTeste.csproj|c:\\projetos\\livrariateste\\controllers\\livroscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -70,63 +90,128 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 8,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "C:\\Projetos\\LivrariaTeste\\Views\\Livros\\Delete.cshtml",
+              "RelativeDocumentMoniker": "Views\\Livros\\Delete.cshtml",
+              "ToolTip": "C:\\Projetos\\LivrariaTeste\\Views\\Livros\\Delete.cshtml",
+              "RelativeToolTip": "Views\\Livros\\Delete.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-16T02:48:05.025Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Projetos\\LivrariaTeste\\Views\\Livros\\Details.cshtml",
+              "RelativeDocumentMoniker": "Views\\Livros\\Details.cshtml",
+              "ToolTip": "C:\\Projetos\\LivrariaTeste\\Views\\Livros\\Details.cshtml",
+              "RelativeToolTip": "Views\\Livros\\Details.cshtml",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAgwC0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-16T02:47:56.362Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Projetos\\LivrariaTeste\\Views\\Livros\\Edit.cshtml",
+              "RelativeDocumentMoniker": "Views\\Livros\\Edit.cshtml",
+              "ToolTip": "C:\\Projetos\\LivrariaTeste\\Views\\Livros\\Edit.cshtml",
+              "RelativeToolTip": "Views\\Livros\\Edit.cshtml",
+              "ViewState": "AgIAABMAAAAAAAAAAAAwwC8AAABOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-16T02:46:55.469Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Projetos\\LivrariaTeste\\Views\\Livros\\Create.cshtml",
+              "RelativeDocumentMoniker": "Views\\Livros\\Create.cshtml",
+              "ToolTip": "C:\\Projetos\\LivrariaTeste\\Views\\Livros\\Create.cshtml",
+              "RelativeToolTip": "Views\\Livros\\Create.cshtml",
+              "ViewState": "AgIAACEAAAAAAAAAAAAAACgAAABYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-16T02:45:54.303Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Projetos\\LivrariaTeste\\Views\\Livros\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Livros\\Index.cshtml",
+              "ToolTip": "C:\\Projetos\\LivrariaTeste\\Views\\Livros\\Index.cshtml",
+              "RelativeToolTip": "Views\\Livros\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAABPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-16T02:43:45.783Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
               "Title": "Delete.cshtml",
               "DocumentMoniker": "C:\\Projetos\\LivrariaTeste\\Views\\Funcionarios\\Delete.cshtml",
               "RelativeDocumentMoniker": "Views\\Funcionarios\\Delete.cshtml",
               "ToolTip": "C:\\Projetos\\LivrariaTeste\\Views\\Funcionarios\\Delete.cshtml",
               "RelativeToolTip": "Views\\Funcionarios\\Delete.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAAKAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAA8AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-10-15T21:07:27.357Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 0,
               "Title": "Details.cshtml",
               "DocumentMoniker": "C:\\Projetos\\LivrariaTeste\\Views\\Funcionarios\\Details.cshtml",
               "RelativeDocumentMoniker": "Views\\Funcionarios\\Details.cshtml",
               "ToolTip": "C:\\Projetos\\LivrariaTeste\\Views\\Funcionarios\\Details.cshtml",
               "RelativeToolTip": "Views\\Funcionarios\\Details.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAKAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAArAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-10-15T21:07:13.502Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 4,
               "Title": "Edit.cshtml",
               "DocumentMoniker": "C:\\Projetos\\LivrariaTeste\\Views\\Funcionarios\\Edit.cshtml",
               "RelativeDocumentMoniker": "Views\\Funcionarios\\Edit.cshtml",
               "ToolTip": "C:\\Projetos\\LivrariaTeste\\Views\\Funcionarios\\Edit.cshtml",
               "RelativeToolTip": "Views\\Funcionarios\\Edit.cshtml",
-              "ViewState": "AgIAAAUAAAAAAAAAAAAkwBYAAAASAAAAAAAAAA==",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAkwCMAAAA8AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-10-15T21:06:58.021Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 5,
               "Title": "Create.cshtml",
               "DocumentMoniker": "C:\\Projetos\\LivrariaTeste\\Views\\Funcionarios\\Create.cshtml",
               "RelativeDocumentMoniker": "Views\\Funcionarios\\Create.cshtml",
               "ToolTip": "C:\\Projetos\\LivrariaTeste\\Views\\Funcionarios\\Create.cshtml",
               "RelativeToolTip": "Views\\Funcionarios\\Create.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAABGAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAgwCkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-10-15T21:06:41.245Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 11,
               "Title": "_Layout.cshtml",
               "DocumentMoniker": "C:\\Projetos\\LivrariaTeste\\Views\\Shared\\_Layout.cshtml",
               "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
@@ -134,37 +219,37 @@
               "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
               "ViewState": "AgIAAAYAAAAAAAAAAAAAACkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-10-15T21:06:20.316Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-15T21:06:20.316Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 3,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Projetos\\LivrariaTeste\\Views\\Funcionarios\\Index.cshtml",
               "RelativeDocumentMoniker": "Views\\Funcionarios\\Index.cshtml",
               "ToolTip": "C:\\Projetos\\LivrariaTeste\\Views\\Funcionarios\\Index.cshtml",
               "RelativeToolTip": "Views\\Funcionarios\\Index.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACsAAAAQAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAATAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-10-15T20:55:42.005Z"
+              "WhenOpened": "2025-10-15T20:55:42.005Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "FuncionariosController.cs",
               "DocumentMoniker": "C:\\Projetos\\LivrariaTeste\\Controllers\\FuncionariosController.cs",
               "RelativeDocumentMoniker": "Controllers\\FuncionariosController.cs",
               "ToolTip": "C:\\Projetos\\LivrariaTeste\\Controllers\\FuncionariosController.cs",
               "RelativeToolTip": "Controllers\\FuncionariosController.cs",
-              "ViewState": "AgIAAGIAAAAAAAAAAAAuwIYAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAgwB0AAAA2AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-10-15T20:51:19.022Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 13,
               "Title": "LivrosController.cs",
               "DocumentMoniker": "C:\\Projetos\\LivrariaTeste\\Controllers\\LivrosController.cs",
               "RelativeDocumentMoniker": "Controllers\\LivrosController.cs",
@@ -176,7 +261,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 14,
               "Title": "20251015192825_Inicial.cs",
               "DocumentMoniker": "C:\\Projetos\\LivrariaTeste\\Migrations\\20251015192825_Inicial.cs",
               "RelativeDocumentMoniker": "Migrations\\20251015192825_Inicial.cs",
@@ -188,7 +273,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 12,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Projetos\\LivrariaTeste\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
@@ -200,7 +285,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 18,
               "Title": "Emprestimo.cs",
               "DocumentMoniker": "C:\\Projetos\\LivrariaTeste\\Models\\Emprestimo.cs",
               "RelativeDocumentMoniker": "Models\\Emprestimo.cs",
@@ -212,7 +297,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 15,
               "Title": "Funcionario.cs",
               "DocumentMoniker": "C:\\Projetos\\LivrariaTeste\\Models\\Funcionario.cs",
               "RelativeDocumentMoniker": "Models\\Funcionario.cs",
@@ -224,7 +309,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 17,
               "Title": "ApplicationDbContext.cs.cs",
               "DocumentMoniker": "C:\\Projetos\\LivrariaTeste\\Data\\ApplicationDbContext.cs.cs",
               "RelativeDocumentMoniker": "Data\\ApplicationDbContext.cs.cs",
@@ -236,7 +321,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 16,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Projetos\\LivrariaTeste\\appsettings.json",
               "RelativeDocumentMoniker": "appsettings.json",
@@ -248,7 +333,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 19,
               "Title": "Livro.cs",
               "DocumentMoniker": "C:\\Projetos\\LivrariaTeste\\Models\\Livro.cs",
               "RelativeDocumentMoniker": "Models\\Livro.cs",
