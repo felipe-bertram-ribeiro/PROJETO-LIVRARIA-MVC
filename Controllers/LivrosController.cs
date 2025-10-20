@@ -20,10 +20,24 @@ namespace LivrariaTeste.Controllers
         }
 
         // GET: Livros
-        public async Task<IActionResult> Index()
+        public async Task<IActionResult> Index(string searchString)
         {
-            return View(await _context.Livros.ToListAsync());
+            ViewData["CurrentFilter"] = searchString;
+
+            var livros = from l in _context.Livros
+                         select l;
+
+            if (!string.IsNullOrEmpty(searchString))
+            {
+                livros = livros.Where(l =>
+                    l.Titulo.Contains(searchString) ||
+                    l.Autor.Contains(searchString) ||
+                    l.Genero.Contains(searchString));
+            }
+
+            return View(await livros.ToListAsync());
         }
+
 
         // GET: Livros/Details/5
         public async Task<IActionResult> Details(int? id)

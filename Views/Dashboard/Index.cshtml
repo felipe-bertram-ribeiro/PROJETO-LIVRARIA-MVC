@@ -73,9 +73,11 @@
 
 <!-- Seção 3: Últimos Empréstimos -->
 <div class="card shadow-sm mb-4">
-    <div class="card-header bg-dark text-white">
+    <div class="card-header bg-dark text-white d-flex justify-content-between align-items-center">
         <h4 class="mb-0">Últimos Empréstimos</h4>
+        <a asp-controller="Emprestimos" asp-action="Create" class="btn btn-light btn-sm">Adicionar Empréstimo</a>
     </div>
+
     <div class="card-body">
         <table class="table table-hover align-middle">
             <thead class="table-light">
@@ -105,9 +107,11 @@
 
 <!-- Seção 4: Últimos Livros -->
 <div class="card shadow-sm mb-4">
-    <div class="card-header bg-dark text-white">
+    <div class="card-header bg-dark text-white d-flex justify-content-between align-items-center">
         <h4 class="mb-0">Últimos Livros</h4>
+        <a asp-controller="Livros" asp-action="Create" class="btn btn-light btn-sm">Adicionar Livro</a>
     </div>
+
     <div class="card-body">
         <table class="table table-hover align-middle">
             <thead class="table-light">

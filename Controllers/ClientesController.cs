@@ -14,11 +14,22 @@ namespace Livraria.Controllers
             _context = context;
         }
 
-        public async Task<IActionResult> Index()
+        public async Task<IActionResult> Index(string searchString)
         {
-            return View(await _context.Clientes.ToListAsync());
-        }
+            ViewData["CurrentFilter"] = searchString;
 
+            var clientes = from c in _context.Clientes
+                           select c;
+
+            if (!string.IsNullOrEmpty(searchString))
+            {
+                clientes = clientes.Where(c =>
+                    c.Nome.Contains(searchString) ||
+                    c.Email.Contains(searchString));
+            }
+
+            return View(await clientes.ToListAsync());
+        }
         public IActionResult Create()
         {
             return View();
